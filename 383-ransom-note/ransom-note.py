@@ -1,7 +1,7 @@
 from collections import Counter
 
 class Solution:
-    def canConstruct(self, ransomNote, magazine):
+    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
         note_counts = Counter(ransomNote)
         mag_counts = Counter(magazine)
         
